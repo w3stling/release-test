@@ -16,6 +16,6 @@ class AppTest {
     @Test
     void appHasLongGreeting() {
         App classUnderTest = new App();
-        assertTrue(classUnderTest.getGreeting().length() > 3, "app should have a greeting");
+        assertTrue(classUnderTest.getGreeting().length() > 300, "app should have a greeting");
     }
 }
