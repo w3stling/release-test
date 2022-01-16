@@ -12,4 +12,10 @@ class AppTest {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
+
+    @Test
+    void appHasLongGreeting() {
+        App classUnderTest = new App();
+        assertTrue(classUnderTest.getGreeting().length() > 3, "app should have a greeting");
+    }
 }
