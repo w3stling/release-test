@@ -13,7 +13,7 @@ categories:
     label: 'performance'
   - title: '🐛 Bug Fixes'
     label: 'bug'
-  - title: '📖 Documentation'
+  - title: '📚 Documentation'
     label: 'documentation'
   - title: '🧰 Maintenance'
     label: 'chore'
@@ -44,5 +44,5 @@ exclude-contributors:
   - 'w3stling'
   - 'dependabot'
 template: |
-  ## Changes
+  ## What's Changed
   $CHANGES
