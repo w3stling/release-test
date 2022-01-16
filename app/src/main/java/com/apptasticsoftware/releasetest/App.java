@@ -1,6 +1,7 @@
 package com.apptasticsoftware.releasetest;
 
 public class App {
+
     public String getGreeting() {
         return "Hello World!!!";
     }
