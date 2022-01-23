@@ -44,6 +44,6 @@ jobs:
         uses: actions/upload-artifact@v2
         if: success() || failure()
         with:
-          name: build-reports
+          name: test-results
           path: ./**/build/test-results/test/*.xml
           retention-days: 7
