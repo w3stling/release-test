@@ -45,6 +45,5 @@ jobs:
         if: success() || failure()
         with:
           name: build-reports
-          path: |
-            ./**/build/test-results/*.xml
+          path: ./**/build/test-results/test/*.xml
           retention-days: 7
