@@ -42,7 +42,7 @@ jobs:
 
       - name: Archive failure build reports
         uses: actions/upload-artifact@v2
-        if: failure()
+        if: success() || failure()
         with:
           name: build-reports
           path: |
